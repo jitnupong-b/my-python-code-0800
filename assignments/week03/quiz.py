@@ -12,7 +12,7 @@ age = int(input("Enter age: "))
 
 
 # Complete this ATM simulation
-balance = 1000
+""" balance = 1000
 pin = "1234"
 
 entered_pin = input("Enter PIN: ")
@@ -31,3 +31,4 @@ if entered_pin == pin:
         
 else:
     print("Invalid PIN")
+"""
