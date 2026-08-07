@@ -24,8 +24,11 @@ for i in range(0, 11, 2):  # 0, 2, 4, 6, 8, 10
 
 print("\nLoop ผ่าน string:")
 name = "Python"
+counter = 0
 for letter in name:
     print(f"ตัวอักษร: {letter}")
+    if letter == "o":
+        counter = counter + 1
 
 print("\nLoop ผ่าน list:")
 fruits = ["apple", "banana", "orange"]
@@ -71,6 +74,9 @@ for num in range(1, 11):
         print(f"{num} เป็นเลขคู่")
     else:
         print(f"{num} เป็นเลขคี่")
+
+# ผลรัน
+
 
 print("\nDemo เกมทายตัวเลข (จำลอง):")
 import random
