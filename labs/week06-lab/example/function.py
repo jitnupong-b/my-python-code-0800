@@ -65,7 +65,11 @@ def calculate_rectangle_area(length, width):
     print()
 
 print("Calculating rectangle areas:")
+<<<<<<< HEAD
 calculate_rectangle_area("boonchoo", 3)
+=======
+calculate_rectangle_area(5, 3)
+>>>>>>> upstream/main
 calculate_rectangle_area(10, 7)
 
 # =============================================================================

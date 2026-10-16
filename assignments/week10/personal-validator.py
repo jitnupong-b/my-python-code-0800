@@ -27,6 +27,7 @@ Name: JOHN DOE
 Age Group: Young Adult (18-30)
 Phone: +91-9876543210
 
+<<<<<<< HEAD
 """
 print("=== PERSONAL INFORMATION VALIDATOR ===")
 name = input("Enter your name: ")
@@ -72,3 +73,6 @@ elif age > 60:
     print("Age Group: Senior (>60)")
 
 print(f"Phone: +66-{phone}")
+=======
+"""
+>>>>>>> upstream/main

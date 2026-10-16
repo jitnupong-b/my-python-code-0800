@@ -9,10 +9,13 @@
 # demo_for_basic.py
 print("=== Demo 1: Basic For Loop ===")
 
+<<<<<<< HEAD
 print(range(5)) # [0, 1, 2, 3, 4]
 print(range(1, 5)) # [1, 2, 3, 4]
 print(range(1, 5, 2)) [1, 3]
 
+=======
+>>>>>>> upstream/main
 # Loop ผ่านตัวเลข
 print("นับจาก 1 ถึง 5:")
 for i in range(1, 6):
@@ -24,11 +27,16 @@ for i in range(0, 11, 2):  # 0, 2, 4, 6, 8, 10
 
 print("\nLoop ผ่าน string:")
 name = "Python"
+<<<<<<< HEAD
 counter = 0
 for letter in name:
     print(f"ตัวอักษร: {letter}")
     if letter == "o":
         counter = counter + 1
+=======
+for letter in name:
+    print(f"ตัวอักษร: {letter}")
+>>>>>>> upstream/main
 
 print("\nLoop ผ่าน list:")
 fruits = ["apple", "banana", "orange"]
@@ -75,9 +83,12 @@ for num in range(1, 11):
     else:
         print(f"{num} เป็นเลขคี่")
 
+<<<<<<< HEAD
 # ผลรัน
 
 
+=======
+>>>>>>> upstream/main
 print("\nDemo เกมทายตัวเลข (จำลอง):")
 import random
 secret_number = 7  # ใช้เลขตายตัวเพื่อ demo
