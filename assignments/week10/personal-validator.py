@@ -28,3 +28,47 @@ Age Group: Young Adult (18-30)
 Phone: +91-9876543210
 
 """
+print("=== PERSONAL INFORMATION VALIDATOR ===")
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+phone = input("Enter your phone number: ")
+
+check_name = False
+for c in name:
+    check_name = c.isalpha() and c.isspace()
+
+check_age = False
+if 18 <= age <= 65:
+    check_age = True
+
+check_phone = False
+if len(phone) == 10 and phone.isdigit():
+    check_phone = True
+
+print("Validation Results:")
+if check_name:
+    print("Name: Valid (contains only letters and spaces)")
+else:
+    print("Name: Invalid")
+
+if check_age:
+    print(f"Age: Valid ({age} years old)")
+else:
+    print("Age: Invalid")
+
+if check_phone:
+    print("Phone: Valid (10-digit number)")
+else:
+    print("Phone: Invalid")
+
+print("Formatted Information:")
+print(f"Name: {name.upper()}")
+
+if 18 <= age <= 30:
+    print("Age Group: Young Adult (18-30)")
+elif 31 <= age <= 60:
+    print("Age Group: Adult (31-60)")
+elif age > 60:
+    print("Age Group: Senior (>60)")
+
+print(f"Phone: +66-{phone}")
